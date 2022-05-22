@@ -1,0 +1,12 @@
+<view class="header">
+  <view class="container hdCon">
+    <navigator open-type="switchTab" url="/pages/index/index" class="logo">
+      <image mode="heightFix" src="/images/icon/logo.png" class="hdPic"></image>
+    </navigator>
+
+    <view class="service">
+      <button class="btn" open-type="contact"></button>
+      <image mode="heightFix" src="/images/icon/service.png" class="hdPic"></image>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,11 @@
+/* 盒子 */
+.box{display: flex;}
+/* 侧栏 */
+.sidenav{background-color: #eee;width: 25%;}
+.sidenav view view:hover{background-color: #fff;}
+.sidenav view view{ height: 80rpx;width: 100%;display: flex;flex-direction: column;justify-content: center;}
+.sidenav view text{text-align: center;}
+/* 内容 */
+.contlist{display: flex;width: 100%;}
+.contlist image{width: 200rpx;padding: 20rpx;}
+.info{display: flex;flex-direction: column;justify-content: center;}

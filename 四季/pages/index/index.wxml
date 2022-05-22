@@ -1,0 +1,75 @@
+<!-- 自定义组件-头部 -->
+<HdView></HdView>
+<!-- 轮播图 -->
+<view class="banner">
+  <swiper indicator-dots indicator-color="rgba(255,255,255,0.5)" indicator-active-color="white" circular autoplay interval="4000">
+    <swiper-item><image src="/images/nav/nav1.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/nav/nav2.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/nav/nav3.jpg"></image></swiper-item>
+    <swiper-item><image src="/images/nav/nav4.jpg"></image></swiper-item>
+  </swiper>
+</view>
+<!-- 导航 -->
+<scroll-view class="major" scroll-x>
+    <navigator url="{{item.navurl}}" class="box" wx:for="{{nav}}" wx:key="index">
+      <image class="pic" src="{{item.picurl}}"></image>
+      <view class="txt">{{item.title}}</view>
+    </navigator>
+</scroll-view>
+<!-- 二十四节气 -->
+<view class="solarTerms">
+  <view class="container">
+    <!-- 自定义组件-标题 -->
+    <PubTitle myTitle="二十四节气"  myUrl="/pages/solarterms/solarterms"></PubTitle>
+    <view class="stMain">
+      <navigator class="box" wx:for="{{stMain}}" wx:key="index">
+        <image class="pic" src="{{item.picurl}}"></image>
+        <view class="ceng">
+          <view class="tit">{{item.title}}</view>
+          <view class="line"></view>
+          <view class="des">{{item.des}}</view>
+        </view>
+     </navigator>
+    </view>
+  </view>
+</view>
+<!-- 四季的色彩 -->
+<view class="seasonColor">
+  <view class="container">
+    <!-- 自定义组件-标题 -->
+    <PubTitle myTitle="四季的色彩" myUrl="#"></PubTitle>
+    <div class="scMain">
+      <navigator class="scItem" wx:for="{{seasonsColor}}" wx:key="index">
+          <view class="pic">
+            <image src="{{item.picurl}}"></image>
+          </view>
+          <view class="txt">
+            <view class="title">{{item.title}}</view>
+              <view class="info">
+                <view><text>作者：</text>{{item.author}}</view>
+                <view>-</view>
+                <view><text>时间：</text>{{item.posttime}}</view>
+              </view>
+          </view>
+      </navigator>
+    </div>
+  </view>
+</view>
+<!-- 自定义组件-页脚 -->
+<FtView></FtView>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

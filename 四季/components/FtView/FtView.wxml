@@ -1,0 +1,4 @@
+<view class="footer">
+  <image class="pic" mode="widthFix" src="/images/icon/logo.png"></image>
+  <view class="txt">—— 四 季 ——</view>
+</view>

@@ -1,0 +1,38 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/spring/spring",
+    "pages/solarterms/solarterms",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarTitleText": "四季",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#B6B6B6",
+    "selectedColor": "#FE9132",
+    "list":[
+      {
+        "pagePath": "pages/index/index",
+        "text":"首页",
+        "iconPath": "images/icon/home.png",
+        "selectedIconPath": "images/icon/home-h.png"
+      },{
+        "pagePath": "pages/solarterms/solarterms",
+        "text":"节气",
+        "iconPath": "images/icon/solarterms.png",
+        "selectedIconPath": "images/icon/solarterms-h.png"
+      },{
+        "pagePath": "pages/me/me",
+        "text":"我的",
+        "iconPath": "images/icon/user.png",
+        "selectedIconPath": "images/icon/user-h.png"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

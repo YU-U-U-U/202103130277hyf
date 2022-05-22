@@ -1,0 +1,27 @@
+<!-- 自定义组件-头部 -->
+<HdView></HdView>
+<!-- 春 -->
+<view class="spring">
+  <!-- 标题 -->
+  <view class="title">
+    <view>春</view>
+    <view>风</view>
+    <text>×</text>
+    <view>十</view>
+    <view>里</view>
+  </view>
+  <view class="sunnyDay">【sunny day】</view>
+  <!-- 文字 -->
+  <view class="txt">
+    <view>以春天问候你、祝福你</view>
+    <view>它比我了解你更多，爱你更深</view>
+    <view>叶子已拿定绿色的主意</view>
+    <view>让花朵放心，去做那些万紫千红的事</view>
+    <view>过春风十里，尽荠麦青青</view>
+    <view>温暖的春风吹绿了一望无际的麦田</view>
+    <view>吹皱了静静流淌的河水</view>
+  </view>
+  <image src="/images/seasons color/spring.png" mode="widthFix"></image>
+</view>
+<!-- 自定义组件-底部 -->
+<FtView></FtView>

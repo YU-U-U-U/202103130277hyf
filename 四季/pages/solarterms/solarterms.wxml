@@ -1,0 +1,21 @@
+<!-- 盒子 -->
+<view class="box">
+  <!-- 侧栏 -->
+  <view class="sidenav">
+    <view>
+      <view wx:for="{{sideNav}}" wx:key="index" id="{{item.id}}" bindtap="search">
+        <text>{{item.title}}</text>
+      </view>
+    </view>
+  </view>
+  <!-- 内容 -->
+  <view >
+    <view wx:for="{{season == ''? seasonAll: season}}" wx:key="index" class="contlist">
+      <image src="{{item.src}}" mode="widthFix"></image>
+      <view class="info">
+        <text>{{item.name}}</text>
+        <text>{{item.time}}</text>
+      </view>
+    </view>
+  </view>
+</view>

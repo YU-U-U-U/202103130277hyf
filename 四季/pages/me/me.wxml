@@ -1,0 +1,17 @@
+<!-- 用户 -->
+<view class="user">
+	<view><image style="border-radius:50%;" src="/images/me/0.png"></image></view>
+	<button type="primary">登录</button>
+</view>
+<!--更多 -->
+<view class="more">
+  <navigator class="meMore" wx:for="{{meMore}}" wx:key="index" url="{{item.link}}">
+    <view class="mainPic">
+      <image src="{{item.picurl}}"></image>
+      <text>{{item.title}}</text>
+    </view>
+    <view class="morePic">
+      <image src="{{item.morepicurl}}"></image>
+    </view>
+  </navigator>
+</view>
